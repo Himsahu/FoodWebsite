@@ -6,10 +6,16 @@ $query_builder = TRUE;
 
 $db['default'] = array(
 	'dsn'	=> '',
-	'hostname' => 'localhost',
-	'username' => 'root',
-	'password' => '',
-	'database' => 'foodshala',
+	// 'hostname' => 'localhost',
+	// 'username' => 'root',
+	// 'password' => '',
+	// 'database' => 'foodshala',
+	
+	'hostname' => 'remotemysql.com',
+	'username' => 'Cp13fZOju6',
+	'password' => 'Omuylkg96g',
+	'database' => 'Cp13fZOju6',
+	
 	'dbdriver' => 'mysqli',
 	'dbprefix' => '',
 	'pconnect' => FALSE,
